@@ -22,7 +22,7 @@ PODS:
     - GKPhotoBrowser/SD (= 2.1.0)
   - GKPhotoBrowser/SD (2.1.0):
     - SDWebImage (~> 5.0)
-  - IMSDK_Demo (0.1.0):
+  - IMSDK_Demo (0.2.0):
     - AFNetworking (~> 4.0.1)
     - EBBannerView
     - FMDB
@@ -73,7 +73,7 @@ SPEC CHECKSUMS:
   EBBannerView: 268002f8d9d3e979cb8649cbfefd0da5ddef72b3
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GKPhotoBrowser: 5faf2b641765940c082d33b58f7a21b68ecd8f3b
-  IMSDK_Demo: 2f058eac65e98fcb6ba420fa82f970f44776aa33
+  IMSDK_Demo: 1bf279c6a1466d14c8ffc0fa660271f54ab845e3
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16

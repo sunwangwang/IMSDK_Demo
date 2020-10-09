@@ -1,0 +1,60 @@
+/*
+  ComponentLocalizable.strings
+  IMSDKComponent
+
+  Created by GJS on 2020/6/30.
+  
+*/
+"online_service" = "Online service";
+"new_message" = "new messages";
+"end_session" = "End of chat";
+"is_end_session" = "Do you want to end this conversation?";
+"end_immediately" = "Yes";
+"please_enter" = "Please input [content]";
+"hold_speak" = "Hold to speak";
+"release_send" = "Release to send, slide up to cancel";
+"tips" = "Warning";
+"already_logged" = "The account has been logged in other device, do you want to proceed log-in？";
+"cancel" = "No";
+"confirm" = "Yes";
+"tap_bubble" = "Click on the bubble to show detailed time, long press on the bubble for more selections";
+"i_know" = "I understand";
+"transfer_manual" = "Transfer to customer service";
+"photo" = "Photo album";
+"shoot" = "Take a picture";
+"video" = "video";
+"file" = "File";
+"evaluate" = "Evaluation";
+"quit" = "Log-out";
+"send" = "send" ;
+"more_news" = "More information";
+"was_disconnected" = "The connection had been disconnected, please refresh if you need more inquiries";
+"order" = "You are currently in %dth queue, approximately need to wait for %d more minutes, please be patient";
+"Continue conversation" = " Continue conversation" ;
+"copy" = "Copy" ;
+"recall" = "Recall" ;
+"Refresh"="Refresh";
+"You have withdrawn a message" = "You have withdrawn a message" ;
+// MARK: - 评价部分
+"satisfaction_evaluation" = "Satifaction level evaluation";
+"comment_placeholder" = "您的评价是我们努力的方向（选填）";
+"submit_comment" = "Submit review";
+"Evaluation has timed out" = "Evaluation has timed out…" ;
+"Quick label" = "Quick label";
+"Evaluation description" = "Evaluation description" ;
+"tips_select_ev" = "Please select the satisfaction label for evaluation, thank you" ;
+"NetFail" = "The network is disconnected,please check and log in again" ;
+"NetDisconnected" = "The network is disconnected......" ;
+// MARK: - 留言部分
+"leave a message" = "Leave a message";
+"submit_message" = "Submit Message";
+"leave_a_message_navigation_title" = "leave a message";
+"leave_a_message_tips" = "Message sent successfully, we will contact you as soon as possible";
+"leavMessage timeoute" = "your message has timed out";
+"leave_a_message_timeoute" = "Session time-out, please refresh if you need to leave a message";
+"Upload Attachment" = " Attachment" ;
+"attachment limit" = "click to upload attachments, the maximum file size is 10M and up to 10 files are allowed to be uploaded";
+"pic limit" = "click to upload pic, the maximum file size is 10M and up to 10 files are allowed to be uploaded" ;
+//MARK: -去留言提示框
+"leave_a_message_tips" = "Currently in session，leaving a message will end the session. Do you want to continue?" ;
+

@@ -1,0 +1,6 @@
+framework module VP_IMSDK {
+  umbrella header "VP_IMSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module IMSDK_Demo {
+  umbrella header "IMSDK_Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,88 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - EBBannerView (1.1.2)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GKPhotoBrowser (2.1.0):
+    - GKPhotoBrowser/SD (= 2.1.0)
+  - GKPhotoBrowser/SD (2.1.0):
+    - SDWebImage (~> 5.0)
+  - IMSDK_Demo (0.1.0):
+    - AFNetworking (~> 4.0.1)
+    - EBBannerView
+    - FMDB
+    - GKPhotoBrowser
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - Protobuf
+    - SDWebImage
+    - SocketRocket
+    - TTGTagCollectionView
+    - TZImagePickerController
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.5.0)
+  - Protobuf (3.13.0)
+  - SDWebImage (5.9.2):
+    - SDWebImage/Core (= 5.9.2)
+  - SDWebImage/Core (5.9.2)
+  - SocketRocket (0.5.1)
+  - TTGTagCollectionView (1.11.1)
+  - TZImagePickerController (3.4.3)
+
+DEPENDENCIES:
+  - IMSDK_Demo (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - EBBannerView
+    - FMDB
+    - GKPhotoBrowser
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - Protobuf
+    - SDWebImage
+    - SocketRocket
+    - TTGTagCollectionView
+    - TZImagePickerController
+
+EXTERNAL SOURCES:
+  IMSDK_Demo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  EBBannerView: 268002f8d9d3e979cb8649cbfefd0da5ddef72b3
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GKPhotoBrowser: 5faf2b641765940c082d33b58f7a21b68ecd8f3b
+  IMSDK_Demo: 2f058eac65e98fcb6ba420fa82f970f44776aa33
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
+  SDWebImage: 0b42b8719ab0c5257177d5894306e8a336b21cbb
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  TTGTagCollectionView: 86fcbfa6a7493c9e860b01c2e693cffc8acf6de1
+  TZImagePickerController: 4f6e91cf00d67827ec23bd3c2f849cbd054b4979
+
+PODFILE CHECKSUM: 8cb4cb4725b5e686fc39af309362da79d38ab854
+
+COCOAPODS: 1.10.0.rc.1

@@ -1,0 +1,60 @@
+/*
+  ComponentLocalizable.strings
+  IMSDKComponent
+
+  Created by GJS on 2020/6/30.
+  
+*/
+"online_service" = "在线客服";
+"new_message" = "条新消息";
+"end_session" = "会话结束";
+"is_end_session" = "是否结束本次会话";
+"end_immediately" = "立即结束";
+"please_enter" = "请输入内容";
+"hold_speak" = "按住说话";
+"release_send" = "松开发送，上滑取消";
+"tips" = "提示";
+"already_logged" = "该账号已在别处登录，是否强制登录";
+"cancel" = "取消";
+"confirm" = "确定";
+"tap_bubble" = "点击气泡显示详细时间，长按气泡进行更多操作";
+"i_know" = "我知道了";
+"transfer_manual" = "转人工";
+"photo" = "相册";
+"shoot" = "拍摄";
+"video" = "视频";
+"file" = "文件";
+"evaluate" = "评价";
+"quit" = "退出";
+"more_news" = "更多消息";
+"was_disconnected" = "连接已断开，如需咨询请刷新";
+"order" = "您当前排在第%d位，预计等待%d分钟，请耐心等待";
+"Continue conversation" = " 继续会话" ;
+"send" = "发送" ;
+"NetFail" = "网络连接异常，请检查后重新登陆" ;
+"NetDisconnected" = "网络连接已经断开......" ;
+"Refresh"="刷新";
+"copy" = "复制" ;
+"recall" = "撤回" ;
+"You have withdrawn a message"="您撤回了一条消息";
+// MARK: - 评价部分
+"satisfaction_evaluation" = "满意度评价";
+"comment_placeholder" = "您的评价是我们努力的方向（选填）";
+"submit_comment" = "提交评价";
+"Evaluation has timed out" = "评价已超时…" ;
+"Quick label" = "快捷标签";
+"Evaluation description" = "评价描述" ;
+"tips_select_ev" = "请选择满意度标签进行评价，谢谢" ;
+// MARK: - 留言部分
+"leave a message" = "去留言" ;
+"submit_message" = "提交留言";
+"leave_a_message_navigation_title" = "留言";
+"leave_a_message_tips" = "留言成功，我们将尽快与您联系";
+"leavMessage timeoute" = "留言超时，请重试";
+"leave_a_message_timeoute" = "留言超时，如需留言请重新刷新";
+"Upload Attachment" = " 上传附件" ;
+"attachment limit" = "点击上传附件，文件最大10MB，最多允许上传10个文件";
+"pic limit" = "点击上传图片，文件最大10MB，最多允许上传10张图片" ;
+//MARK: -去留言提示框
+"leave_a_message_tips" = "当前处于会话中，若去留言将结束会话，是否继续？" ;
+

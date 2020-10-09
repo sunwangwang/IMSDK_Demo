@@ -30,8 +30,31 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'IMSDK_Demo/Classes/**/*'
+#  s.source_files = 'IMSDK_Demo/Classes/**/*'
+  s.source_files = 'IMSDK_Demo/Classes/**/*.{h,m}'
+  s.vendored_frameworks = 'IMSDK_Demo/Classes/*.framework'
+   s.frameworks = 'UIKit', 'Foundation'
+   s.resource_bundles = {
+     'IMSDK_Demo' => ['SdK_Demo/Assets/*']
+   }
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
   
+    s.dependency 'AFNetworking', '~> 4.0.1'
+    s.dependency 'Masonry'
+    s.dependency 'MBProgressHUD'
+    s.dependency 'TZImagePickerController'
+    s.dependency 'SDWebImage'
+    s.dependency 'FMDB'
+    s.dependency 'SocketRocket'
+    s.dependency 'MJRefresh'
+    s.dependency 'GKPhotoBrowser'
+    s.dependency 'TTGTagCollectionView'
+    s.dependency 'Protobuf'
+    s.dependency 'EBBannerView'
+
   # s.resource_bundles = {
   #   'IMSDK_Demo' => ['IMSDK_Demo/Assets/*.png']
   # }

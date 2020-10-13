@@ -1,6 +1,6 @@
 {
   "name": "IMSDK_Demo",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "A short description of IMSDK_Demo.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/sunwangwang/IMSDK_Demo",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/sunwangwang/IMSDK_Demo.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -28,11 +28,7 @@
     "CFNetwork",
     "Security"
   ],
-  "resource_bundles": {
-    "IMSDK_Demo": [
-      "IMSDK_Demo/Assets/*"
-    ]
-  },
+  "resources": "IMSDK_Demo/Assets/IMSDK.bundle",
   "dependencies": {
     "AFNetworking": [
       "~> 4.0.1"

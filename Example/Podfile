@@ -4,7 +4,8 @@ platform :ios, '9.0'
 
 target 'IMSDK_Demo_Example' do
   pod 'IMSDK_Demo', :path => '../'
-
+  pod 'Bugly'
+  
   target 'IMSDK_Demo_Tests' do
     inherit! :search_paths
 

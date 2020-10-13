@@ -97,10 +97,10 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/IMSDK_Demo/IMSDK_Demo.bundle"
+  install_resource "${PODS_ROOT}/../../IMSDK_Demo/Assets/IMSDK.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/IMSDK_Demo/IMSDK_Demo.bundle"
+  install_resource "${PODS_ROOT}/../../IMSDK_Demo/Assets/IMSDK.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

@@ -10,6 +10,10 @@
 		154A77B5537F2460ADBB32E2 /* Pods_IMSDK_Demo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8961B9A2821E4CEDC7CDE4B1 /* Pods_IMSDK_Demo_Example.framework */; };
 		2F75F95349F62E95DC6FA1DD /* Pods_IMSDK_Demo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF194A0E0354AEC8A22059A /* Pods_IMSDK_Demo_Tests.framework */; };
 		3458676925308A2C0009C4DA /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3458676825308A250009C4DA /* libstdc++.tbd */; };
+		34F68ED9253585B9006DBA5B /* RemoteNotificationDelegator.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F68ED7253585B9006DBA5B /* RemoteNotificationDelegator.m */; };
+		34F68EDC253588B5006DBA5B /* libjcore-ios-2.3.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F68EDB253588B4006DBA5B /* libjcore-ios-2.3.4.a */; };
+		34F68EE0253588BB006DBA5B /* libjpush-ios-3.3.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F68EDF253588BB006DBA5B /* libjpush-ios-3.3.4.a */; };
+		34F68EE22535890D006DBA5B /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F68EE125358904006DBA5B /* libresolv.tbd */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +43,12 @@
 
 /* Begin PBXFileReference section */
 		3458676825308A250009C4DA /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		34F68ED7253585B9006DBA5B /* RemoteNotificationDelegator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteNotificationDelegator.m; sourceTree = "<group>"; };
+		34F68ED8253585B9006DBA5B /* RemoteNotificationDelegator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteNotificationDelegator.h; sourceTree = "<group>"; };
+		34F68EDB253588B4006DBA5B /* libjcore-ios-2.3.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libjcore-ios-2.3.4.a"; sourceTree = "<group>"; };
+		34F68EDE253588BB006DBA5B /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		34F68EDF253588BB006DBA5B /* libjpush-ios-3.3.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libjpush-ios-3.3.4.a"; sourceTree = "<group>"; };
+		34F68EE125358904006DBA5B /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		37476120CF64FB3ACC473D24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5CF194A0E0354AEC8A22059A /* Pods_IMSDK_Demo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMSDK_Demo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* IMSDK_Demo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMSDK_Demo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,10 +87,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				34F68EDC253588B5006DBA5B /* libjcore-ios-2.3.4.a in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				34F68EE0253588BB006DBA5B /* libjpush-ios-3.3.4.a in Frameworks */,
 				3458676925308A2C0009C4DA /* libstdc++.tbd in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				154A77B5537F2460ADBB32E2 /* Pods_IMSDK_Demo_Example.framework in Frameworks */,
+				34F68EE22535890D006DBA5B /* libresolv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +111,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34F68EDA253588B4006DBA5B /* JCore */ = {
+			isa = PBXGroup;
+			children = (
+				34F68EDB253588B4006DBA5B /* libjcore-ios-2.3.4.a */,
+			);
+			path = JCore;
+			sourceTree = "<group>";
+		};
+		34F68EDD253588BB006DBA5B /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				34F68EDE253588BB006DBA5B /* JPUSHService.h */,
+				34F68EDF253588BB006DBA5B /* libjpush-ios-3.3.4.a */,
+			);
+			path = JPush;
+			sourceTree = "<group>";
+		};
 		512A8D311F4766A604B0C213 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +163,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				34F68EE125358904006DBA5B /* libresolv.tbd */,
 				3458676825308A250009C4DA /* libstdc++.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
@@ -147,6 +178,10 @@
 		6003F593195388D20070C39A /* Example for IMSDK_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				34F68EDD253588BB006DBA5B /* JPush */,
+				34F68EDA253588B4006DBA5B /* JCore */,
+				34F68ED8253585B9006DBA5B /* RemoteNotificationDelegator.h */,
+				34F68ED7253585B9006DBA5B /* RemoteNotificationDelegator.m */,
 				6003F59C195388D20070C39A /* VPAppDelegate.h */,
 				6003F59D195388D20070C39A /* VPAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -212,7 +247,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				3C0FAA861D2790C139C54476 /* [CP] Embed Pods Frameworks */,
-				8330DB145087FAF9BCB57D97 /* [CP] Copy Pods Resources */,
+				794968F0041546D207AC8BFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +287,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = sunwangwang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9VH594S7Z4;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -362,18 +401,18 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8330DB145087FAF9BCB57D97 /* [CP] Copy Pods Resources */ = {
+		794968F0041546D207AC8BFD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-IMSDK_Demo_Example/Pods-IMSDK_Demo_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/IMSDK_Demo/IMSDK_Demo.bundle",
+				"${PODS_ROOT}/../../IMSDK_Demo/Assets/IMSDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IMSDK_Demo.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IMSDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -411,6 +450,7 @@
 			files = (
 				6003F59E195388D20070C39A /* VPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* VPViewController.m in Sources */,
+				34F68ED9253585B9006DBA5B /* RemoteNotificationDelegator.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,13 +579,23 @@
 			baseConfigurationReference = 88FD3E5A9A9C95B398CE7F46 /* Pods-IMSDK_Demo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9VH594S7Z4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IMSDK_Demo/IMSDK_Demo-Prefix.pch";
 				INFOPLIST_FILE = "IMSDK_Demo/IMSDK_Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMSDK_Demo/JCore",
+					"$(PROJECT_DIR)/IMSDK_Demo/JPush",
+				);
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = net.icsoc.im.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = IM_SDK_DEV;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -555,13 +605,23 @@
 			baseConfigurationReference = BBE4A4740492416176F44620 /* Pods-IMSDK_Demo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9VH594S7Z4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IMSDK_Demo/IMSDK_Demo-Prefix.pch";
 				INFOPLIST_FILE = "IMSDK_Demo/IMSDK_Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMSDK_Demo/JCore",
+					"$(PROJECT_DIR)/IMSDK_Demo/JPush",
+				);
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = net.icsoc.im.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = IM_SDK_DEV;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

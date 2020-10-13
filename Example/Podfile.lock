@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - Bugly (2.5.71)
   - EBBannerView (1.1.2)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
@@ -22,7 +23,7 @@ PODS:
     - GKPhotoBrowser/SD (= 2.1.0)
   - GKPhotoBrowser/SD (2.1.0):
     - SDWebImage (~> 5.0)
-  - IMSDK_Demo (0.2.0):
+  - IMSDK_Demo (0.3.0):
     - AFNetworking (~> 4.0.1)
     - EBBannerView
     - FMDB
@@ -47,11 +48,13 @@ PODS:
   - TZImagePickerController (3.4.3)
 
 DEPENDENCIES:
+  - Bugly
   - IMSDK_Demo (from `../`)
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - Bugly
     - EBBannerView
     - FMDB
     - GKPhotoBrowser
@@ -70,10 +73,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Bugly: fd066c75c4a0eca1440f9b6a84bd37d51bfc85ac
   EBBannerView: 268002f8d9d3e979cb8649cbfefd0da5ddef72b3
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GKPhotoBrowser: 5faf2b641765940c082d33b58f7a21b68ecd8f3b
-  IMSDK_Demo: 1bf279c6a1466d14c8ffc0fa660271f54ab845e3
+  IMSDK_Demo: 8268c34dbf1f3d9776a62e7e50ca9af367e36a1e
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
@@ -83,6 +87,6 @@ SPEC CHECKSUMS:
   TTGTagCollectionView: 86fcbfa6a7493c9e860b01c2e693cffc8acf6de1
   TZImagePickerController: 4f6e91cf00d67827ec23bd3c2f849cbd054b4979
 
-PODFILE CHECKSUM: 8cb4cb4725b5e686fc39af309362da79d38ab854
+PODFILE CHECKSUM: 23d423cdff5d90c316f25d95806085c58a928603
 
 COCOAPODS: 1.10.0.rc.1

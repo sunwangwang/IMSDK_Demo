@@ -40,7 +40,7 @@ typedef void(^CompletionBlock)(BOOL register);
 *  @param name  用户名
  @param avatar  头像地址
  @param thirdId  用户在这个sdk里面唯一标示
- @param pushId  appSDK推送别名
+ @param pushId  appSDK推送别名一般为用户id
   
  @param otherInfo   用户自定义信息 格式： ，json字符串  样式：[{\"key\":\"姓名\"，\"value\":\"小明\"}]
   

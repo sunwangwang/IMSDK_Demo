@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IMSDK_Demo'
-  s.version          = '0.1.0'
+  s.version          = '0.4.1'
   s.summary          = 'A short description of IMSDK_Demo.'
 
 # This description is used to generate tags and improve search results.
@@ -28,15 +28,16 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/sunwangwang/IMSDK_Demo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
 #  s.source_files = 'IMSDK_Demo/Classes/**/*'
-  s.source_files = 'IMSDK_Demo/Classes/**/*.{h,m}'
+#  s.source_files = 'IMSDK_Demo/Classes/**/*.{h,m}'
   s.vendored_frameworks = 'IMSDK_Demo/Classes/*.framework'
-   s.frameworks = 'UIKit', 'Foundation'
-   s.resource_bundles = {
-     'IMSDK_Demo' => ['SdK_Demo/Assets/*']
-   }
+   s.frameworks = 'UIKit', 'Foundation' , 'CoreMedia', 'AVFoundation', 'CFNetwork', 'Security'
+    s.resource     = 'IMSDK_Demo/Assets/IMSDK.bundle'
+#   s.resource_bundles = {
+#     'IMSDK_Demo' => ['IMSDK_Demo/Assets/*']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

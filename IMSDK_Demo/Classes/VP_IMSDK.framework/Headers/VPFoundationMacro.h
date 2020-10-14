@@ -41,7 +41,7 @@
 
 /// 资源文件的bundle路径
 #define AssetBundlePath \
-        [[NSBundle mainBundle].resourcePath stringByAppendingPathComponent:@"IMSDK_Demo.bundle/IMSDK.bundle"]
+        [[NSBundle mainBundle].resourcePath stringByAppendingPathComponent:@"IMSDK.bundle"]
 
 /// 资源文件的bundle
 #define AssetBundle \
